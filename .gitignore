@@ -1,0 +1,29 @@
+# 개인 카카오톡 데이터는 절대 커밋하지 않음
+data/
+*.txt
+KakaoTalk_*.txt
+
+# 중간 산출물
+*.csv
+results/
+figures/
+*.png
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
